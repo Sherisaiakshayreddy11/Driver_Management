@@ -8,6 +8,7 @@
 .cnn {
     display: flex;
     height: 50px;
+    
 }
 
 .bnn{
@@ -15,14 +16,65 @@
     flex-direction: row-reverse;
     align-items: end;
     gap: 10px    ;
+    margin-right: 18px;
+  
+    
 }
-.dfg {
-    padding: 0px 20px;
-}
+// .dfg {
+//     padding: 0px 20px;
+    
+// }
 .hnn {
     display: flex;
     align-items: center;
+    padding-left: 35px;
 }
 span {
     font-weight: 600;
+}
+
+.cnn {
+    background-color: #F6FAFD;
+}
+
+:host ::ng-deep .k-tabstrip-items {
+    background-color: #F6FAFD !important;
+    text-transform: capitalize !important;
+}
+
+kendo-tabstrip {
+    
+    background-color: #ffffff;
+}
+
+.dfg {
+    background-color: #ffffff
+}
+
+.mmm {
+  background-color: #F6FAFD;  
+}
+
+:host ::ng-deep .k-tabstrip-items{
+    padding-left: 15px;
+}
+
+img {
+    margin-right: 5px;
+}
+
+:host ::ng-deep .k-tabstrip-items *, .k-tabstrip-items *::before, .k-tabstrip-items *::after{
+    font-weight: 600;
+}
+
+button {
+    height: 30px;
+}
+:host ::ng-deep .ccm {
+    background-color: #ffffff !important;
+    
+}
+
+.k-button {
+    font-weight: 400;
 }

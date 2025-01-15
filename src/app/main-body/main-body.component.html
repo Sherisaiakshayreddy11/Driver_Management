@@ -1,35 +1,42 @@
 <div class="dfg">
-    <div class="cnn col-12">
-        <div class="hnn col-2">
-           
-            <span>Kevin Foreman - </span> 100979</div>
-        <div class="bnn col-10">
-            <button kendoButton fillMode="outline" class="ccm">
-                Cancel
-              </button>
-            <button kendoButton  themeColor="primary" class="nnn">
-                Save
-              </button>
-             
+    <div class="mmm">
+        <div class="cnn col-12">
+            <div class="hnn col-3">
+               <img src="assets\Group.svg" alt="">
+                <span>  Kevin Foreman - </span> 100979</div>
+            <div class="bnn col-10">
+                <button kendoButton  themeColor="primary" class="nnn">
+                    Save
+                  </button>
+                <button kendoButton fillMode="outline" class="ccm">
+                    Cancel
+                  </button>
+                
+                 
+            </div>
         </div>
+        <div class="ggg">
+            <kendo-tabstrip>
+                <kendo-tabstrip-tab title="Personal and Driver Details" [selected]="true">
+                    <ng-template kendoTabContent>
+                        <app-content></app-content>
+                    </ng-template>
+        
+                </kendo-tabstrip-tab>
+                <kendo-tabstrip-tab title="Records">
+                    
+        
+                </kendo-tabstrip-tab>
+                <kendo-tabstrip-tab title="Notes,Tickets & Incidents">
+                    
+        
+                </kendo-tabstrip-tab>
+            </kendo-tabstrip>
+        </div>
+        
     </div>
-    
+  
 
-    <kendo-tabstrip>
-        <kendo-tabstrip-tab title="Personal and Driver Details" [selected]="true">
-            <ng-template kendoTabContent>
-                <app-content></app-content>
-            </ng-template>
-
-        </kendo-tabstrip-tab>
-        <kendo-tabstrip-tab title="Records">
-            
-
-        </kendo-tabstrip-tab>
-        <kendo-tabstrip-tab title="Notes,Tickets & Incidents">
-            
-
-        </kendo-tabstrip-tab>
-    </kendo-tabstrip>
+   
 </div>
 
