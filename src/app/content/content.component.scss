@@ -1,0 +1,54 @@
+*{
+    background-color: #ffffff;
+}
+
+
+.hdn {
+    background-color:#F1F4F9 ;
+    height: 40px;
+    display: flex;
+    
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+
+.gd {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px 20px 40px 20px;
+
+}
+.hnnn{
+    font-weight: 600;
+    font-size: 13px;
+}
+.thhh {
+    font-size: 13px;
+}
+input {
+    height: 26px;
+    border:0.5px solid  #DEE2E6;
+    width: 100%;
+   
+}
+.mm {
+    gap: 2px;
+}
+:host  kendo-multiselect {
+    height: 26px;
+    border-color: #DEE2E6!important;
+    border-left: 1px solid #DEE2E6;
+    border-right: 1px solid #DEE2E6;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+
+}
+
+input {
+    padding-left: 10px;
+}

@@ -1,0 +1,75 @@
+.main {
+    height: 50px;
+    background-color: #10162A;
+    display:flex;
+    
+
+
+}
+.tc {
+    background-color: #182C61;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    
+    
+    
+}
+ .txt{
+    
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.hgt {
+    display: flex;
+}
+
+.mm {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.mm .txt {
+    font-weight: 400;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+
+}
+.nn {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 20px;
+    gap: 20px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+}
+.npm {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nnm {
+    font-size: 12px;
+    color: #10162A;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    
+}
